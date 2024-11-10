@@ -2,6 +2,7 @@
 
 import { calculatePortfolioValue, getPortfolioAllocation } from './portfolio.js';
 import { Transaction } from './transaction.js';
+import { getAssetById } from './asset.js';
 
 function displayPortfolio() {
     const portfolioDetails = document.getElementById('portfolioDetails'); // get portfolio details
