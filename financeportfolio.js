@@ -28,3 +28,7 @@ try {
 // show updated portfolio details
 console.log("Updated Portfolio Value:", calculatePortfolioValue());
 console.log("Updated Portfolio Allocation:", getPortfolioAllocation());
+
+// display portfolio details
+displayDetails();
+displayPercentages();
